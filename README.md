@@ -1,6 +1,6 @@
 ### Hi there, I am Kunal Tyagi 👋
 
-- 🔭 I’m currently working on a something cool 😉
+- 🔭 I’m currently working on something cool 😉
 - 🌱 I’m currently learning everything 😂
 - 👯 I’m looking to collaborate with other content creators
 - 🎯 2021 Goals: Contribute more to open source projects
