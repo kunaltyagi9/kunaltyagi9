@@ -1,0 +1,301 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Kunal Tyagi - Software Engineer profile banner">
+<defs>
+
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="100%" stop-color="#050B18"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111C33" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="asciiGrad" x1="-40%" y1="0%" x2="60%" y2="100%" spreadMethod="reflect">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-0.6 0; 0.6 0; -0.6 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-1.4 -1.4; 1.4 1.4; -1.4 -1.4" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowEmerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="bigBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+
+    <filter id="noiseFilter" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.6 0"/>
+    </filter>
+
+    <clipPath id="canvasClip">
+      <rect x="0" y="0" width="1180" height="610" rx="28" ry="28"/>
+    </clipPath>
+    <clipPath id="leftPanelClip">
+      <rect x="28" y="28" width="436" height="554" rx="20" ry="20"/>
+    </clipPath>
+    <clipPath id="rightPanelClip">
+      <rect x="480" y="28" width="672" height="554" rx="20" ry="20"/>
+    </clipPath>
+    
+</defs>
+<g clip-path="url(#canvasClip)">
+<rect x="0" y="0" width="1180" height="610" fill="url(#bgGrad)"/>
+
+    <g filter="url(#bigBlur)">
+      <circle cx="180" cy="120" r="180" fill="url(#glowBlue)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 40,30; 0,0" dur="11s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="950" cy="480" r="220" fill="url(#glowPurple)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -35,-25; 0,0" dur="13s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="900" cy="90" r="150" fill="url(#glowEmerald)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -20,35; 0,0" dur="9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+<g><circle cx="268" cy="65" r="2.0" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="6.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; -12,-70" dur="6.2s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="218" cy="472" r="1.0" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="5.5s" begin="1.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; -17,-70" dur="5.5s" begin="1.4s" repeatCount="indefinite"/></circle><circle cx="447" cy="469" r="1.3" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="7.9s" begin="4.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; -18,-70" dur="7.9s" begin="4.9s" repeatCount="indefinite"/></circle><circle cx="366" cy="472" r="1.5" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="5.8s" begin="5.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 3,-70" dur="5.8s" begin="5.7s" repeatCount="indefinite"/></circle><circle cx="249" cy="134" r="1.5" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="6.8s" begin="2.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; -2,-70" dur="6.8s" begin="2.1s" repeatCount="indefinite"/></circle><circle cx="128" cy="510" r="1.8" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="9.9s" begin="2.3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 17,-70" dur="9.9s" begin="2.3s" repeatCount="indefinite"/></circle><circle cx="640" cy="410" r="1.8" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="8.5s" begin="0.3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; -4,-70" dur="8.5s" begin="0.3s" repeatCount="indefinite"/></circle><circle cx="632" cy="121" r="2.2" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="9.3s" begin="2.3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 11,-70" dur="9.3s" begin="2.3s" repeatCount="indefinite"/></circle><circle cx="787" cy="206" r="1.5" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="6.0s" begin="1.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; -14,-70" dur="6.0s" begin="1.6s" repeatCount="indefinite"/></circle><circle cx="390" cy="290" r="1.2" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="6.9s" begin="5.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 17,-70" dur="6.9s" begin="5.9s" repeatCount="indefinite"/></circle><circle cx="489" cy="372" r="2.2" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="8.9s" begin="1.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; -16,-70" dur="8.9s" begin="1.4s" repeatCount="indefinite"/></circle><circle cx="686" cy="450" r="1.4" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="6.1s" begin="5.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 2,-70" dur="6.1s" begin="5.7s" repeatCount="indefinite"/></circle><circle cx="475" cy="551" r="1.6" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="9.6s" begin="2.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; -2,-70" dur="9.6s" begin="2.8s" repeatCount="indefinite"/></circle><circle cx="325" cy="292" r="2.0" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="7.7s" begin="4.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 9,-70" dur="7.7s" begin="4.5s" repeatCount="indefinite"/></circle></g>
+<rect x="0" y="0" width="1180" height="610" filter="url(#noiseFilter)" opacity="0.035"/>
+<rect x="1.5" y="1.5" width="1177" height="607" rx="27" ry="27" fill="none" stroke="#131c2f" stroke-width="1.5"/>
+<rect x="1.5" y="1.5" width="1177" height="607" rx="27" ry="27" fill="none" stroke="url(#borderShimmer)" stroke-width="1.5"/>
+<g clip-path="url(#leftPanelClip)">
+<rect x="28" y="28" width="436" height="554" fill="url(#panelGrad)"/>
+<rect x="28" y="28" width="436" height="554" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<circle cx="54" cy="52" r="5.5" fill="#FF5F56" opacity="0.85"/>
+<circle cx="72" cy="52" r="5.5" fill="#FFBD2E" opacity="0.85"/>
+<circle cx="90" cy="52" r="5.5" fill="#27C93F" opacity="0.85"/>
+<text x="246.0" y="56" text-anchor="middle" font-family="SF Mono, Menlo, monospace" font-size="11" fill="#94A3B8">portrait.ascii</text>
+<line x1="28" y1="70" x2="464" y2="70" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<g filter="url(#softGlow)">
+<g>
+<animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0; 0,5; 0,0" dur="7s" repeatCount="indefinite"/>
+<text xml:space="preserve" x="102.2" y="92.0" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0092;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>               .:-=+*#%%%#*+=-:.          </text>
+<text xml:space="preserve" x="102.2" y="106.6" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0106;0.0198;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>            .+#%%%%%%%%%%%%%%%#+.         </text>
+<text xml:space="preserve" x="102.2" y="121.2" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0213;0.0305;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>          :+%%%%%%%%%%%%%%%%%%%%%+:       </text>
+<text xml:space="preserve" x="102.2" y="135.8" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0319;0.0412;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>        =+%%%%%%%%%%%%%%%%%%%%%%%%+=      </text>
+<text xml:space="preserve" x="102.2" y="150.4" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0426;0.0518;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>       +%%%%%%%%%%%%%%%%%%%%%%%%%%%%+     </text>
+<text xml:space="preserve" x="102.2" y="165.0" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0532;0.0625;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      +%%%%%%##%%%%%%%%%%%%##%%%%%%%+     </text>
+<text xml:space="preserve" x="102.2" y="179.6" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" font-weight="700" fill="#F8FAFC" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0639;0.0732;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      %%%[#####]==========[#####]%%%      </text>
+<text xml:space="preserve" x="102.2" y="194.2" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" font-weight="700" fill="#F8FAFC" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0745;0.0838;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      %%%[#####]==========[#####]%%%      </text>
+<text xml:space="preserve" x="102.2" y="208.8" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0852;0.0945;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      %%%%%%\\_____________/%%%%%%%       </text>
+<text xml:space="preserve" x="102.2" y="223.4" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0958;0.1051;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>       %%%%%.    |   |    .%%%%%          </text>
+<text xml:space="preserve" x="102.2" y="238.0" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1065;0.1158;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>        +%%%###############%%%+           </text>
+<text xml:space="preserve" x="102.2" y="252.6" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1172;0.1264;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>         =%%%#####v#####%%%=              </text>
+<text xml:space="preserve" x="102.2" y="267.2" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1278;0.1371;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>          :+%%\\_________/%%+:            </text>
+<text xml:space="preserve" x="102.2" y="281.8" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1385;0.1477;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>            .+#%%%%%%%%%#+.               </text>
+<text xml:space="preserve" x="102.2" y="296.4" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1491;0.1583;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>           .:=*#%%%%%%%%#*=:.             </text>
+<text xml:space="preserve" x="102.2" y="311.0" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1598;0.1690;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>          :+#%%%%%%%%%%%%%%#+:            </text>
+<text xml:space="preserve" x="102.2" y="325.6" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1704;0.1796;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>         =%%%%%%%%%%%%%%%%%%%%=           </text>
+<text xml:space="preserve" x="102.2" y="340.2" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1811;0.1903;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>        /%%%%%%%%%%%%%%%%%%%%%%\          </text>
+<text xml:space="preserve" x="102.2" y="354.8" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1917;0.2009;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>       /%%%%\\_________________/%%%%\     </text>
+<text xml:space="preserve" x="102.2" y="369.4" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2024;0.2116;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      |      \\_______________/      |    </text>
+<text xml:space="preserve" x="102.2" y="384.0" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" font-weight="700" fill="#F8FAFC" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2130;0.2222;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      |     ||                 ||     |   </text>
+<text xml:space="preserve" x="102.2" y="398.6" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" font-weight="700" fill="#F8FAFC" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2237;0.2329;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      |     ||    o     o      ||     |   </text>
+<text xml:space="preserve" x="102.2" y="413.2" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" font-weight="700" fill="#F8FAFC" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2343;0.2435;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      |     ||                 ||     |   </text>
+<text xml:space="preserve" x="102.2" y="427.8" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" font-weight="700" fill="#F8FAFC" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2450;0.2542;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>      |     ||        o        ||     |   </text>
+<text xml:space="preserve" x="102.2" y="442.4" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2556;0.2648;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>     /       \\_______________/        \  </text>
+<text xml:space="preserve" x="102.2" y="457.0" font-family="SF Mono, Menlo, Consolas, monospace" font-size="11.6" fill="url(#asciiGrad)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2663;0.2755;0.7846;0.8077;1" dur="13.0s" repeatCount="indefinite"/>    /___________________________________\ </text>
+<rect x="393.9" y="446.0" width="7" height="13" fill="#22D3EE" opacity="0.9">
+<animate attributeName="opacity" values="0.9;0.9;0;0;0.9" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
+</rect>
+</g>
+</g>
+<rect x="28" y="28" width="436" height="2.5" fill="#7C3AED" opacity="0.35">
+<animate attributeName="y" values="28;582;28" dur="4.5s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.4;0" dur="4.5s" repeatCount="indefinite"/>
+</rect>
+<rect x="28" y="28" width="140" height="554" fill="white" opacity="0.035" transform="skewX(-18)">
+      <animateTransform attributeName="transform" type="translate" values="-160,0; 596,0" dur="8s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+</g>
+<rect x="28" y="28" width="436" height="554" rx="20" ry="20" fill="none" stroke="#1E2A44" stroke-width="1"/>
+<g clip-path="url(#rightPanelClip)">
+<rect x="480" y="28" width="672" height="554" fill="url(#panelGrad)"/>
+<circle cx="506" cy="52" r="5.5" fill="#FF5F56" opacity="0.85"/>
+<circle cx="524" cy="52" r="5.5" fill="#FFBD2E" opacity="0.85"/>
+<circle cx="542" cy="52" r="5.5" fill="#27C93F" opacity="0.85"/>
+<text x="816.0" y="56" text-anchor="middle" font-family="SF Mono, Menlo, monospace" font-size="11" fill="#94A3B8">kunal@dev — zsh</text>
+<line x1="480" y1="70" x2="1152" y2="70" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="0.3s" dur="0.6s" fill="freeze" additive="sum"/><text x="514" y="108" font-family="SF Mono, Menlo, monospace" font-size="15" fill="#94A3B8">$ whoami</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="0.6s" dur="0.6s" fill="freeze" additive="sum"/><text x="514" y="142" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#F8FAFC">Hi <tspan font-size="24">👋</tspan> I'm Kunal Tyagi</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="1.0s" dur="0.6s" fill="freeze" additive="sum"/><text x="514" y="182" font-family="SF Mono, Menlo, monospace" font-size="17" fill="url(#accentGrad)">&gt;</text></g>
+
+        <clipPath id="rcdark0">
+          <rect x="534" y="166" height="22" width="0">
+            <animate attributeName="width" values="0.0;173.2;173.2;0.0;0.0" keyTimes="0.00000;0.03000;0.19920;0.20000;1.00000"
+              dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+          </rect>
+        </clipPath>
+        
+<text clip-path="url(#rcdark0)" x="534" y="182" font-family="SF Mono, Menlo, monospace" font-size="17" fill="#F8FAFC" font-weight="600">Software Engineer</text>
+<rect x="709.2" y="169" width="8" height="16" fill="#22D3EE" opacity="0">
+<animate attributeName="opacity" values="0.0;1;1;0.0;0.0" keyTimes="0.00000;0.11000;0.19920;0.20000;1.00000" dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+</rect>
+
+        <clipPath id="rcdark1">
+          <rect x="534" y="166" height="22" width="0">
+            <animate attributeName="width" values="0.0;0.0;202.0;202.0;0.0;0.0" keyTimes="0.00000;0.20000;0.23000;0.39920;0.40000;1.00000"
+              dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+          </rect>
+        </clipPath>
+        
+<text clip-path="url(#rcdark1)" x="534" y="182" font-family="SF Mono, Menlo, monospace" font-size="17" fill="#F8FAFC" font-weight="600">Full Stack Developer</text>
+<rect x="738.0" y="169" width="8" height="16" fill="#22D3EE" opacity="0">
+<animate attributeName="opacity" values="0.0;0.0;1;1;0.0;0.0" keyTimes="0.00000;0.20000;0.31000;0.39920;0.40000;1.00000" dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+</rect>
+
+        <clipPath id="rcdark2">
+          <rect x="534" y="166" height="22" width="0">
+            <animate attributeName="width" values="0.0;0.0;230.8;230.8;0.0;0.0" keyTimes="0.00000;0.40000;0.43000;0.59920;0.60000;1.00000"
+              dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+          </rect>
+        </clipPath>
+        
+<text clip-path="url(#rcdark2)" x="534" y="182" font-family="SF Mono, Menlo, monospace" font-size="17" fill="#F8FAFC" font-weight="600">Open Source Contributor</text>
+<rect x="766.8" y="169" width="8" height="16" fill="#22D3EE" opacity="0">
+<animate attributeName="opacity" values="0.0;0.0;1;1;0.0;0.0" keyTimes="0.00000;0.40000;0.51000;0.59920;0.60000;1.00000" dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+</rect>
+
+        <clipPath id="rcdark3">
+          <rect x="534" y="166" height="22" width="0">
+            <animate attributeName="width" values="0.0;0.0;182.8;182.8;0.0;0.0" keyTimes="0.00000;0.60000;0.63000;0.79920;0.80000;1.00000"
+              dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+          </rect>
+        </clipPath>
+        
+<text clip-path="url(#rcdark3)" x="534" y="182" font-family="SF Mono, Menlo, monospace" font-size="17" fill="#F8FAFC" font-weight="600">MERN Stack Builder</text>
+<rect x="718.8" y="169" width="8" height="16" fill="#22D3EE" opacity="0">
+<animate attributeName="opacity" values="0.0;0.0;1;1;0.0;0.0" keyTimes="0.00000;0.60000;0.71000;0.79920;0.80000;1.00000" dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+</rect>
+
+        <clipPath id="rcdark4">
+          <rect x="534" y="166" height="22" width="0">
+            <animate attributeName="width" values="0.0;0.0;221.2;221.2;0.0" keyTimes="0.00000;0.80000;0.83000;0.99920;1.00000"
+              dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+          </rect>
+        </clipPath>
+        
+<text clip-path="url(#rcdark4)" x="534" y="182" font-family="SF Mono, Menlo, monospace" font-size="17" fill="#F8FAFC" font-weight="600">Java / Spring Boot Dev</text>
+<rect x="757.2" y="169" width="8" height="16" fill="#22D3EE" opacity="0">
+<animate attributeName="opacity" values="0.0;0.0;1;1;0.0" keyTimes="0.00000;0.80000;0.91000;0.99920;1.00000" dur="18.0s" begin="1.0s" repeatCount="indefinite"/>
+</rect>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="1.8s" dur="0.6s" fill="freeze" additive="sum"/><text x="514" y="226" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" fill="#94A3B8">📍<tspan dx="10" font-weight="600" fill="#F8FAFC">Location</tspan><tspan dx="8">Delhi NCR, India</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.12s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="2.12s" dur="0.6s" fill="freeze" additive="sum"/><text x="514" y="256" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" fill="#94A3B8">💼<tspan dx="10" font-weight="600" fill="#F8FAFC">Role</tspan><tspan dx="8">Software Engineer · Full Stack Developer</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.44s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="2.44s" dur="0.6s" fill="freeze" additive="sum"/><text x="514" y="286" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" fill="#94A3B8">🎯<tspan dx="10" font-weight="600" fill="#F8FAFC">Focus</tspan><tspan dx="8">Building scalable full-stack applications</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.76s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="2.76s" dur="0.6s" fill="freeze" additive="sum"/><text x="514" y="316" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" fill="#94A3B8">🔗<tspan dx="10" font-weight="600" fill="#F8FAFC">Portfolio</tspan><tspan dx="8">linkedin.com/in/kunaltyagi9</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.2800000000000002s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="3.2800000000000002s" dur="0.6s" fill="freeze" additive="sum"/><text x="514" y="366" font-family="SF Mono, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#94A3B8">SKILLS</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.5300000000000002s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="3.5300000000000002s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.13s" repeatCount="indefinite" additive="sum"/>
+<rect x="514.0" y="381.0" width="66.4" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="547.2" y="400.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">Java</text>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.6300000000000003s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="3.6300000000000003s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.23s" repeatCount="indefinite" additive="sum"/>
+<rect x="590.4" y="381.0" width="123.1" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="651.9" y="400.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">Spring Boot</text>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.7300000000000004s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="3.7300000000000004s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.33s" repeatCount="indefinite" additive="sum"/>
+<rect x="723.5" y="381.0" width="74.5" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="760.8" y="400.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">React</text>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.83s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="3.83s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.43s" repeatCount="indefinite" additive="sum"/>
+<rect x="808.0" y="381.0" width="90.7" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="853.4" y="400.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">Node.js</text>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.93s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="3.93s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.53s" repeatCount="indefinite" additive="sum"/>
+<rect x="908.7" y="381.0" width="115.0" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="966.2" y="400.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">TypeScript</text>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.03s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="4.03s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.63s" repeatCount="indefinite" additive="sum"/>
+<rect x="1033.7" y="381.0" width="90.7" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="1079.0" y="400.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">MongoDB</text>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.130000000000001s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="4.130000000000001s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.73s" repeatCount="indefinite" additive="sum"/>
+<rect x="514.0" y="423.0" width="74.5" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="551.2" y="442.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">MySQL</text>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.23s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="4.23s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.83s" repeatCount="indefinite" additive="sum"/>
+<rect x="598.5" y="423.0" width="90.7" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="643.9" y="442.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">Express</text>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.33s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="4.33s" dur="0.6s" fill="freeze" additive="sum"/>
+<g>
+<animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" begin="4.93s" repeatCount="indefinite" additive="sum"/>
+<rect x="699.2" y="423.0" width="58.3" height="30" rx="15.0" ry="15.0" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#softGlow)"/>
+<text x="728.4" y="442.5" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">Git</text>
+</g></g>
+<line x1="514" y1="506" x2="1128" y2="506" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.73s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="4.73s" dur="0.6s" fill="freeze" additive="sum"/>
+<a xlink:href="https://github.com/kunaltyagi9" target="_blank">
+<g filter="url(#softGlow)">
+<animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="2.6s" begin="5.23s" repeatCount="indefinite" additive="sum"/>
+<circle cx="532" cy="538" r="18" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1"/>
+<g transform="translate(522,528) scale(0.83)"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.22-3.37-1.22-.46-1.2-1.11-1.52-1.11-1.52-.9-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.58 2.34 1.12 2.91.86.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.64 1.03 2.76 0 3.95-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.61.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z" fill="#F8FAFC"/></g>
+</g></a></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.78s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="4.78s" dur="0.6s" fill="freeze" additive="sum"/><text x="556" y="542" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#94A3B8">GitHub</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.91s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="4.91s" dur="0.6s" fill="freeze" additive="sum"/>
+<a xlink:href="https://www.linkedin.com/in/kunaltyagi9/" target="_blank">
+<g filter="url(#softGlow)">
+<animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="2.6s" begin="5.41s" repeatCount="indefinite" additive="sum"/>
+<circle cx="642" cy="538" r="18" fill="rgba(255,255,255,.04)" stroke="rgba(124,58,237,.35)" stroke-width="1"/>
+<g transform="translate(632,528) scale(0.83)"><path d="M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM3.2 8.75h3.5V21H3.2V8.75Zm6.28 0h3.36v1.68h.05c.47-.87 1.6-1.79 3.3-1.79 3.53 0 4.18 2.28 4.18 5.25V21h-3.5v-5.4c0-1.29-.02-2.94-1.8-2.94-1.8 0-2.08 1.4-2.08 2.85V21H9.48V8.75Z" fill="#F8FAFC"/></g>
+</g></a></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.96s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0,10; 0,0" begin="4.96s" dur="0.6s" fill="freeze" additive="sum"/><text x="666" y="542" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#94A3B8">LinkedIn</text></g>
+</g>
+<rect x="480" y="28" width="672" height="554" rx="20" ry="20" fill="none" stroke="#1E2A44" stroke-width="1"/>
+</g>
+</svg>
